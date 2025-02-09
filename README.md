@@ -23,7 +23,7 @@ US100-Stock-Dashboard/
    pip install -r requirements.txt
    ```
 3. **Extract Database**:
-   - Unzip `Database.zip` and place it in the correct path as referenced in the scripts.
+   - Unzip `Database.zip` and place it in the correct path as referenced in the scripts OR regenerate a new one using data_fetcher.py
 
 ## How to Run
 ### 1. Fetch Data & Store in Database
