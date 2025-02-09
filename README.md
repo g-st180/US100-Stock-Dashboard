@@ -3,13 +3,12 @@
 ## Directory Structure
 ```
 US100-Stock-Dashboard/
-│-- Data Fetcher.py
-│-- Interactive Dashboard.py
-│-- Equal Weighted_Index Composition.py
+│-- data_fetcher.py
+│-- interactive_dashboard.py
+│-- equal_weighted_index_composition.py
 │-- constant.py
 │-- requirements.txt
-│-- Database.zip
-│-- sample_output/
+│-- dATABASE.zip
 │-- README.md
 ```
 
