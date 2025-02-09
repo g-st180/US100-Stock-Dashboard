@@ -1,8 +1,5 @@
 # README.md
 
-## Project Overview
-This project retrieves market data for S&P 500 companies, processes it to compute an equal-weighted index, and presents the results via an interactive dashboard.
-
 ## Directory Structure
 ```
 US100-Stock-Dashboard/
@@ -11,10 +8,6 @@ US100-Stock-Dashboard/
 │-- Equal Weighted_Index Composition.py
 │-- constant.py
 │-- requirements.txt
-│-- test/
-│   ├── test_data_fetcher.py
-│   ├── test_index_composition.py
-│   └── test_dashboard.py
 │-- Database.zip
 │-- sample_output/
 │-- README.md
@@ -23,7 +16,7 @@ US100-Stock-Dashboard/
 ## Installation & Setup
 1. **Clone Repository**:
    ```sh
-   git clone <repository-url>
+   git clone https://github.com/g-st180/US100-Stock-Dashboard
    cd US100-Stock-Dashboard
    ```
 2. **Install Dependencies**:
@@ -54,7 +47,6 @@ This launches a web-based dashboard displaying index performance and composition
 
 ## Assumptions
 - Data fetched is assumed to be accurate as provided by Yahoo Finance.
-- The top 100 companies by market cap are included daily.
 - A company listed in the S&P 500 may not necessarily be in the top 100 U.S. companies by market cap.
 
 ## Project Flow
@@ -64,8 +56,5 @@ This launches a web-based dashboard displaying index performance and composition
 4. **Track index composition changes**: Daily shifts in the composition of the top 100 companies are logged.
 5. **Generate reports and dashboards**: The data is visualized through an interactive dashboard with time-series analysis, company weights, and index trends.
 
-## Future Improvements
-- **Support for other stock indices**: Expand the project to include indices like NASDAQ-100 and Dow Jones Industrial Average.
-- **Custom weighting methodologies**: Allow users to apply different weighting mechanisms (e.g., market-cap weighted, fundamental factors).
-- **Integration with real-time stock data APIs**: Enhance data freshness by incorporating live market data feeds.
-- **Advanced visualization features**: Improve the dashboard with additional analytics, historical trend comparisons, and interactive forecasting tools.
+![Dashboard](https://github.com/user-attachments/assets/5f458e70-2710-4cda-b542-27765f3cf083)
+
